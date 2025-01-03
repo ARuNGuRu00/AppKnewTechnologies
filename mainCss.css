@@ -11,7 +11,7 @@ body{
     align-items: center ;
     background-color: rgb(22, 33, 61);color:white;
     height: 50px;
-    z-index: 100;
+    z-index: 2;
 }
 
 .brand{
@@ -123,6 +123,41 @@ body{
 .mname:hover .tooltip{
     opacity: 1;
 }
+.menu-options {
+    display: none;
+}
+.menu-options .option{
+    font-size: 18px;
+    color:black;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-options .option:active{
+    background-color:rgb(33, 46, 76);
+    color:white;
+}
+
+#serve-option,#company-option,#about-option{
+    display:none;
+}
+#serve-option .omenu,#company-option .omenu,#about-option .omenu{
+    font-size: 18px;
+    background-color: darkblue;
+    color:white;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding:10px;
+    
+}
+#serve-option .omenu:active,#company-option .omenu:active,#about-option .omenu:active{
+    opacity: 0.8;
+}
 
 .content-display{
     background-color:rgb(6, 15, 38);
@@ -136,15 +171,12 @@ body{
 }
 
 
-
 .left div{
     font-family: Arial, Helvetica, sans-serif;
     font-size:58px;
     padding-left:30px;
     display: block;
 }
-
-
 
 .content-display p{
     padding-left: 40px;padding-top: 10px;
@@ -159,7 +191,7 @@ body{
     height: 600px;
     object-fit: cover;
     object-position: center;
-    z-index: -1;
+    z-index: 0;
 }
 
 .left button{
@@ -209,7 +241,7 @@ body{
     .left div{
         padding-left: 0px;
         font-size: 30px;
-        padding-bottom: ;
+       
     }
     .left p{
         padding-left: 0;
@@ -224,5 +256,11 @@ body{
         border:none;
         transition: background-image 1s;
         border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .menu-options{
+        display:none;
     }
 }
