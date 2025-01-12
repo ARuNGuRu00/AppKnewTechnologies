@@ -80,15 +80,22 @@
     position: absolute;
     bottom:0;right:0;
     opacity: 0.5;
+    z-index: -1;
+}
+.con4 .dec2{
+    position: absolute;
+    top:0;right:0;
+    opacity: 0.5;
+    z-index: -1;
 }
 .con5{
     background-color: rgba(237, 110, 176, 0.583);
 }
 
-.con5 img{
-    width:100px;
-    margin-right: 10px;
-    
+
+
+.con5 .mcard{
+    background-color: transparent;
 }
 
 .con5 .card{
@@ -96,11 +103,12 @@
     
 }
 
-.con5 .card-body{
-    transform: translate(120vw);
+.con5 .cbody{
+    height: 100px;
     animation: move 10s linear infinite;
+   
 }
-.con5 .card-body:hover{
+.con5 .cbody:hover{
     animation-play-state: paused;
 }
 
@@ -116,13 +124,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgb(38, 5, 38);
+    background-color: rgb(15, 1, 15);
     color:white;
 }
 @keyframes move {
     
     to{
-        transform: translate(-120vw);
+        transform: translateX(-200%);
     }
 }
+
 
