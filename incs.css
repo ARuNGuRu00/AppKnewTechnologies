@@ -1,0 +1,128 @@
+.wel{
+    background-color: rgb(15, 82, 186);
+    color:white;  
+}
+.h1,.h3{
+    font-family: "Yatra One", serif;
+}
+.py-3{
+    font-family: "Handlee", serif;
+    font-weight: 400;
+}
+
+.wel .btn{
+    font-family: "Audiowide", serif;font-size: 18px;
+    width:200px;height: 50px;
+    background-color: rgb(220, 223, 244);color: rgb(0, 0, 0);
+    transition: transform 0.3s;
+}
+
+.wel .imgs{
+    overflow: hidden;
+}
+
+
+
+.con1 img{
+    width: 600px;
+}
+
+.con1 .btn,.con2 .btn,.con3 .btn,.con4 .btn,.con6 .btn{
+    font-family: "Audiowide", serif;font-size: 18px;
+    height: 50px;min-width: 200px;
+    background-color: rgb(159, 168, 237);color: rgb(0, 0, 0);
+    transition: transform 0.3s;
+}
+.con3 .btn,.con6 .btn,.con4 .btn{
+    background-color: rebeccapurple;color: white;
+}
+
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.con1{
+    background-color: rgb(230, 245, 254);
+    
+}
+
+.con3{
+    background-image: url("eimg/eff.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(175, 124, 124);
+    
+}
+
+.con3 .card{
+    background-image: linear-gradient(to right,rgb(145, 100, 100),rgb(194, 57, 77));
+    
+}
+
+.card-title{
+    font-family: "Passero One", serif;
+}
+
+.card-text{
+    font-family: "Geo", serif;
+}
+
+.con4 .card{
+    background-image: linear-gradient(to right,rgb(106, 100, 145),rgb(96, 89, 202));
+    color:white;
+}
+.con4{
+    position: relative;
+}
+.con4 .dec{
+    position: absolute;
+    bottom:0;right:0;
+    opacity: 0.5;
+}
+.con5{
+    background-color: rgba(237, 110, 176, 0.583);
+}
+
+.con5 img{
+    width:100px;
+    margin-right: 10px;
+    
+}
+
+.con5 .card{
+    overflow: hidden;
+    
+}
+
+.con5 .card-body{
+    transform: translate(120vw);
+    animation: move 10s linear infinite;
+}
+.con5 .card-body:hover{
+    animation-play-state: paused;
+}
+
+.con5{
+    background-image: url(eimg/bitmap1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.con6{
+    background-image: url('eimg/call.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(38, 5, 38);
+    color:white;
+}
+@keyframes move {
+    
+    to{
+        transform: translate(-120vw);
+    }
+}
+
