@@ -60,16 +60,29 @@ a:hover{
     align-items: center;
     padding: 18px 0px;
 }
+.serves::after{
+    content: "SERVICES";
+}
+
+.companys::after{
+    content:"COMPANYS";
+}
+.abouts::after{
+    content:'ABOUT';
+}
+.contacts::after{
+    content: 'CONTACT';
+}
 
 .menu-buts .mname::after{
-    content: services;
     position: absolute;
-    width: 0;
-    color: rgb(13, 210, 95);
-    left:0;
-    transition: width 0.3s ease-out;
-    border-radius: 1px;
+    width: 0%;left:0;
+    padding: 18px 0px;
     overflow: hidden;
+    color: rgb(13, 210, 95);
+    font-family: "Itim", serif;font-size: 18px;
+    transition: width .3s;
+    background-color: transparent;
     
 }
 
@@ -87,10 +100,9 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 100;
+    z-index: 0;
     border-radius: 5px;
     padding-top:20px;
-    font-family: Arial, Helvetica, sans-serif;
     display:none;transition: opacity 0.3s;
 }
 
@@ -131,9 +143,6 @@ a:hover{
     display: flex;
 }
 
-.mname:active .tool{
-    display: flex;
-}
 
 .menu-options {
     user-select: none;
@@ -153,7 +162,7 @@ a:hover{
 }
 
 .menu-options .option:active{
-    background-color:RGB(15, 82, 186);
+    background-color:rgb(224, 235, 244);
     color:white;
 }
 
@@ -162,11 +171,13 @@ a:hover{
 }
 #serve-option .omenu,#company-option .omenu,#about-option .omenu{
     font-size: 18px;
-    background-color: RGB(15, 82, 186);
-    color:white;
-    border-style: solid;
-    border-width: 0 0 1px 0;
+    background-color: rgb(229, 230, 247);
+    color:rgb(0, 0, 0);
+    border:none;
+    /*border-width: 0 0 1px 0;*/
     padding:10px 30px;
+    margin-bottom:3px;
+    border-radius:10px;
     
 }
 #serve-option .omenu:active,#company-option .omenu:active,#about-option .omenu:active{

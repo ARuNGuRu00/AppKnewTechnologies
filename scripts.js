@@ -3,6 +3,11 @@ let serve_state=0;
 let company_state=0;
 let about_state=0;
 
+
+let mserve_state=0;
+let mcompany_state=0;
+let mabout_state=0;
+
 function noptions(){
     if(state===0){
         state=1;
@@ -53,3 +58,37 @@ function about(){
         about_state=0;
     }
 }
+
+function mserves(){
+    if (mserve_state===0){
+        document.getElementById('mserves').style.display="flex";
+        mserve_state=1;
+    }
+    else if (mserve_state===1){
+        document.getElementById('mserves').style.display="none";
+        mserve_state=0;
+    }
+}
+
+function mcompany(){
+    if (mcompany_state===0){
+        document.getElementById('companys').style.display="flex";
+        mcompany_state=1;
+    }
+    else if (mcompany_state===1){
+        document.getElementById('companys').style.display="none";
+        mcompany_state=0;
+    }
+}
+
+function mabout(){
+    if (mabout_state===0){
+        document.getElementById('abouts').style.display="flex";
+        mabout_state=1;
+    }
+    else if (mabout_state===1){
+        document.getElementById('abouts').style.display="none";
+        mabout_state=0;
+    }
+}
+
