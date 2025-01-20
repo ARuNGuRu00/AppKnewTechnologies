@@ -92,8 +92,6 @@
     background-color: rgba(237, 110, 176, 0.583);
 }
 
-
-
 .con5 .mcard{
     background-color: transparent;
 }
@@ -130,7 +128,7 @@
 @keyframes move {
     
     to{
-        transform: translateX(-200%);
+        transform: translateX(-200vw);
     }
 }
 

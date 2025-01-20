@@ -63,14 +63,37 @@ body{
     background-size: cover;
 }
 
-div{
+.h{
     width:200px;height: 200px;
     background-color: red;
-    display: none;
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
+    display: flex;
+}
+.h1{
+    width:200px;height: 200px;
+    background-color: rgb(220, 60, 229);
+    display: inline-block;
+    width:100vw;
+    animation: move linear 5s infinite;
+}
+.j1{
+    width:200px;height: 200px;
+    background-color: rgb(53, 16, 142);
+    display: inline-block;
+    width:100vw;
+    
 }
 
 @media screen and (min-width:578px) {
     div{
         display: block;
+    }
+}
+
+@keyframes move {
+    to {
+        transform: translateX(100vw);
     }
 }
