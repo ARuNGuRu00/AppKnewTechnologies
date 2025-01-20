@@ -55,3 +55,12 @@ function about(){
     }
 }
 
+function command(){
+    document.getElementById('phone-label').style.display='none';
+    document.getElementById('phone').style.display='none';
+}
+
+function callCommand(){
+    document.getElementById('phone-label').style.display='block';
+    document.getElementById('phone').style.display='block';
+}
