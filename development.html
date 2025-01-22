@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Development</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Geo:ital@0;1&family=Handlee&family=Itim&family=Merienda:wght@300..900&family=Passero+One&family=Tourney:ital,wght@0,100..900;1,100..900&family=Yatra+One&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="contact-style.css">
+    <link rel="stylesheet" href="devCs.css">
     <link rel="stylesheet" href="navigationcs.css">
     <script src="scripts.js"></script>
+    
 </head>
 <body>
-    <div class="navigation-bar ">
+    <div class="navigation-bar">
         <div class="brand">
             <a href="index.htm">
             <img src="brand\log2.png" class="logo">
@@ -50,13 +51,13 @@
                     
                 </div>
             </div>
-            <div class="mname contacts"><a href="contact.html">CONTACT</a></div>
+            <a href="contact.html" class="mname contacts">CONTACT</a>
         </div>
     </div>
     <div class="menu-options d-lg-none" id="options">
         <div class="option" id="serve" onclick="serve()">SERVICES<span>+</span></div>
         <div id="serve-option">
-            <a href="development.html" class="omenu">Development</a>
+            <a href="#" class="omenu">Development</a>
             <div class="omenu">Features</div>
             <div class="omenu">Support</div>
             <div class="omenu">Our Clients</div>
@@ -79,82 +80,53 @@
         </div>
         <a href="contact.html" class="option"><div>CONTACT US</div></a>
     </div>
-    <div class="bannar d-flex p-3 justify-content-center align-items-center">
-        <span class="h1 fw-bold p-3 m-3 text-center rounded-4">CONVERSATION PORTAL</span>
-    </div>
-    <div class=" mb-5 container-fluid d-flex flex-column overflow-hidden mw-100" >
-        <div class="container rounded-4 mt-3 d-flex justify-content-center">
-            <div class="imgCon">
-                <img src="down/call.jpg" class="mw-100 mainImg rounded-4">
-                <img src="eimg/conv1.png" class="mw-100 sub1 ">
-                <img src="eimg/conv2.png" class=" mw-100 sub2">
-                <img src="eimg/conv3.png" class=" mw-100 sub3">
-            </div>
+    <div class="row mw-100 d-flex justify-content-center con1">
+        <div class="col-xl-7 col-lg-7 col-sm-12 text-center">
+            <p class="h1 col-12">Iterative and Flexible approach to software development</p>
+            <p class="col-12">Emphasizes collaboration, adaptability, and delivering incremental value</p>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 d-flex justify-content-center align-items-center col-sm-12 rounded-4 mb-3">
-                <div class="d-flex justify-content-center">
-                    <div class="card col-9 mt-5 card1">
-                        <div class="card-body">
-                            <img src="down/switch.png" class="rounded-1 w-25 mb-3">
-                            <p class="h4 mb-4">Change according to your desire</p>
-                            <button class=" btn btn-primary col-12" onclick="command()">Live a command</button>
-                            <button class=" btn btn-primary mt-3 col-12" onclick="callCommand()">Get a call</button>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="col-lg-7 col-sm-12 d-flex justify-content-center align-items-center">
-                <div class=" col-12 p-4">
-                    <form class="brief rounded-4 p-4 needs-validation">
-                        <label class="form-label mt-2">Name:</label>
-                        <input type="text" class="form-control" required>
-                        <label class="form-label mt-2">Email Address:</label>
-                        <input type="text" class="form-control" required placeholder="name@example.com">
-                        <label class="form-label mt-2" id="phone-label">Phone No:</label>
-                        <input type="text" required class="form-control" id="phone">
-                    
-                        <label class="form-label mt-2">Subject:</label>
-                        <input type="text" required class="form-control">
-                        <label class="form-label mt-2">Command:</label>
-                        <textarea class="form-control" rows="4" required placeholder="leave your commands"></textarea>
-                        <button type="submit" class="btn btn-primary mt-3">send</button>
-                    </form>
-                </div>
-               
-            </div>
+        <div class="col-12 d-flex justify-content-center ">
+            <img src="down/development.png" class="devImg">
         </div>
-    </div>
-    <div class="container-fluid con1 text-white bg-dark py-5">
-        <div class="container d-flex flex-column justify-content-center con12 h-100">
-            <div class="row py-5 gap-4">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <p class="h4" style="font-family:'Merienda', serif;">AppKnew technologies</p>
-                    <p>Innovate, Educate, Elevate</p>
-                </div>
-                <div class="col-lg-3 col-md-5 col-sm-3">
-                    <p class="row h3">Development</p>
-                    <p class="row">-> our team</p>
-                    <p class="row">-> work Progress</p> 
-                    <p class="row">-> consulting</p>
-                    <p class="row">-> planning</p>
-                    <p class="row">-> features</p>
-                </div>
-                
-                <div class="col-lg-3 col-sm-3 col-md-5">
-                    <p class="row h3">about us</p>
-                    <p class="row">-> why us</p>
-                    <p class="row">-> contect</p>
-                    <p class="row">-> location</p>
+        <div class="col-12 row con2 d-flex justify-content-center  gap-3">
+            <div class="card col-3">
+                <div class="card-body">
+                    <div class="card-title h5">Individuals and interactions</div>
+                    <div class="card-text fs-6 fw-lighter">Over processes and tools.</div>
                 </div>
             </div>
-        </div>
-    </div> 
+            
+            <div class="card col-3">
+                <div class="card-body">
+                    <div class="card-title h5">Working software</div>
+                    <div class="card-text fs-6 fw-lighter"> Over comprehensive documentation</div>
+                </div>
+            </div>
 
+            <div class="card col-3">
+                <div class="card-body">
+                    <div class="card-title h5">Customer collaboration</div>
+                    <div class="card-text fs-6 fw-lighter"> Over contract negotiation</div>
+                </div>
+            </div>
+
+            <div class="card col-4">
+                <div class="card-body">
+                    <div class="card-title h5">Responding to change</div>
+                    <div class="card-text fs-6 fw-lighter">Over following a plan</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row con3">
+        <p class="h1 my-5 text-white text-center">Delivering working software frequently</p>
+        <div class="row col-6 position-relative">
+            <img src="eimg/mac.png">
+            <img src="eimg/use22.png" class="position-absolute use22 w-25">
+            <img src="eimg/use3.png" class="position-absolute use2 w-75" >
+        </div>
+    </div>
+    <div class="vh-100"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-</html>
+</html>  

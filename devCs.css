@@ -1,0 +1,33 @@
+.con1{
+    margin-top: 100px;
+}
+
+.devImg{
+    margin-top: 80px;
+    width:800px;
+    
+}
+
+.con2{
+    margin:80px 0;
+    
+}
+
+.con3{
+    background-image: url(down/fre.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.use22{
+    top:-50px;left:30px;
+    opacity: 95%;
+}
+
+.use2{
+    
+    opacity: 95%;
+    bottom:-20px;right: -20px;
+}
