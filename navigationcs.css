@@ -71,7 +71,8 @@ a:hover{
 .abouts::after{
     content:'ABOUT';
 }
-.contacts::after{   
+.contacts::after{  
+    content: 'CONTACT'; 
 }
 
 .menu-buts .mname::after{
@@ -172,7 +173,7 @@ a:hover{
     font-size: 18px;
     background-color: rgb(229, 230, 247);
     color:rgb(0, 0, 0);
-    border:none;
+    display: block;
     /*border-width: 0 0 1px 0;*/
     padding:10px 30px;
     margin-bottom:3px;
