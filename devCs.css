@@ -1,10 +1,11 @@
 .con1{
     margin-top: 100px;
+   
 }
 
 .devImg{
     margin-top: 80px;
-    width:800px;
+    
     
 }
 
@@ -13,12 +14,19 @@
     
 }
 
+
+
 .con3{
-    background-image: url(down/fre.jpg);
+    /*background-image: url(down/fre.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     padding-bottom: 100px;
+    background-color: rgb(247, 162, 162);
+}
+
+.con32{
+    padding-bottom: 80px;
 }
 
 .use22{
@@ -30,4 +38,27 @@
     
     opacity: 95%;
     bottom:-20px;right: -20px;
+}
+
+.con31{
+    background-color: rgba(0, 0, 0, 0.909);
+    padding:30px;box-shadow: 0 0 10px black;
+}
+
+.tag{
+    box-shadow: 0 0 10px black;
+}
+.tag1{
+    padding:10px;
+}
+.con5{
+    background-color: rgb(236, 234, 234);
+}
+
+.devI2{
+    width:150px;left:100px;
+}
+
+.devI3{
+    width:200px;right:100px;top:60px;
 }
