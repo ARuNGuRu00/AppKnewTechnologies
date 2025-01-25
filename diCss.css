@@ -1,0 +1,19 @@
+.con1{
+    animation: hScroll 15s linear infinite alternate;
+}
+
+.con2{
+    transform: translateX(-420%);
+    animation: hScroll2 65s linear infinite alternate;
+}
+
+@keyframes hScroll{
+    to {
+        transform: translateX(-100%);
+    }
+}
+@keyframes hScroll2{
+    to {
+        transform: translateX(100%);
+    }
+}
