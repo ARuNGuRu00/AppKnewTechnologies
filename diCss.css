@@ -19,7 +19,7 @@
 }
 
 .Frame1{
-    background-image: linear-gradient(to bottom ,rgb(15, 82, 186),white );
+    background-image: linear-gradient(to bottom right,white,rgb(15, 82, 186));
 }
 
 .google{
