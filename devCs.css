@@ -62,3 +62,13 @@
 .devI3{
     width:200px;right:100px;top:60px;
 }
+
+.element1{
+    animation: elementRot 20s linear infinite forwards;
+}
+
+@keyframes elementRot{
+    to{
+        transform: rotate(360deg);
+    }
+}

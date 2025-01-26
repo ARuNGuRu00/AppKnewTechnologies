@@ -4,7 +4,7 @@
 
 .con2{
     transform: translateX(-420%);
-    animation: hScroll2 65s linear infinite alternate;
+    animation: hScroll2 40s linear infinite alternate;
 }
 
 @keyframes hScroll{
@@ -14,6 +14,40 @@
 }
 @keyframes hScroll2{
     to {
-        transform: translateX(100%);
+        transform: translateX(10%);
+    }
+}
+
+.Frame1{
+    background-image: linear-gradient(to bottom ,rgb(15, 82, 186),white );
+}
+
+.google{
+    animation: googleAnimation 0.5s linear infinite alternate-reverse;
+}
+
+/*.bing{
+    animation: bingAnimation 0.5s linear alternate-reverse;
+}*/
+
+.yahoo{
+    animation: yahooAnimation 0.5s linear infinite alternate-reverse;
+    animation-delay: 0.5s;
+}
+
+@keyframes googleAnimation {
+    to{
+        transform: translateY(-10px);
+    }
+}
+@keyframes yahooAnimation {
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bingAnimation {
+    to{
+        transform: translateY(-40px);
     }
 }
